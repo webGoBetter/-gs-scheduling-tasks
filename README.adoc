@@ -1,6 +1,6 @@
 ---
 tags: [任务调度]
-projects: [Spring 框架]
+projects: [spring-framework]
 ---
 :toc:
 :spring_version: current
