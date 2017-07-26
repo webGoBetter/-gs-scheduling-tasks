@@ -16,17 +16,17 @@ projects: [spring-framework]
 == 你需要什么
 
 :java_version: 1.8
-include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/prereq_editor_jdk_buildtools.adoc[]
+include::https://raw.githubusercontent.com/webGoBetter/getting-started-macros/master/prereq_editor_jdk_buildtools.adoc[]
 
 
-include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/how_to_complete_this_guide.adoc[]
+include::https://raw.githubusercontent.com/webGoBetter/getting-started-macros/master/how_to_complete_this_guide.adoc[]
 
 
-include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/hide-show-gradle.adoc[]
+include::https://raw.githubusercontent.com/webGoBetter/getting-started-macros/master/hide-show-gradle.adoc[]
 
-include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/hide-show-maven.adoc[]
+include::https://raw.githubusercontent.com/webGoBetter/getting-started-macros/master/hide-show-maven.adoc[]
 
-include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/hide-show-sts.adoc[]
+include::https://raw.githubusercontent.com/webGoBetter/getting-started-macros/master/hide-show-sts.adoc[]
 
 
 
@@ -53,14 +53,14 @@ NOTE: 这个例子使用 `fixedRate` ，用于指定的每次方法开始调用�
 include::complete/src/main/java/hello/Application.java[]
 ----
 
-include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/spring-boot-application.adoc[]
+include::https://raw.githubusercontent.com/webGoBetter/getting-started-macros/master/spring-boot-application.adoc[]
 
 http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/#scheduling-enable-annotation-support[`@EnableScheduling`] 注解将确保后台任务执行者被创建。没有他将不会有任务调度。
 
 
-include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/build_an_executable_jar_subhead.adoc[]
+include::https://raw.githubusercontent.com/webGoBetter/getting-started-macros/master/build_an_executable_jar_subhead.adoc[]
 
-include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/build_an_executable_jar_with_both.adoc[]
+include::https://raw.githubusercontent.com/webGoBetter/getting-started-macros/master/build_an_executable_jar_with_both.adoc[]
 
 
 
@@ -78,5 +78,5 @@ include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/
 
 祝贺你!您创建了具有预定任务的应用程序。事实上，实际的代码比构建文件短！这种技术可以应用在在任何类型的工程中的应用。
 
-include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/footer.adoc[]
+include::https://raw.githubusercontent.com/webGoBetter/getting-started-macros/master/footer.adoc[]
 
