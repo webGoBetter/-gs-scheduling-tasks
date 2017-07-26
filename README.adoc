@@ -40,7 +40,7 @@ include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/
 include::complete/src/main/java/hello/ScheduledTasks.java[]
 ----
 
- `Scheduled` 注释定义特定方法何时运行。
+`Scheduled` 注解定义特定方法何时运行。
 NOTE: 这个例子使用 `fixedRate` ，用于指定的每次方法开始调用之间的时间间隔。还有一些注解 http://docs.spring.io/spring/docs/{spring_version}/spring-framework-reference/html/scheduling.html#scheduling-annotation-support-scheduled[other options], 比如 `fixedDelay`, 用于指定每次任务完成的时间间隔。 还有 http://docs.spring.io/spring/docs/{spring_version}/javadoc-api/org/springframework/scheduling/support/CronSequenceGenerator.html[使用 `@Scheduled(cron=". . .")` 表达式用于更复杂任务调度的表达式].
 
 == 启用调度
